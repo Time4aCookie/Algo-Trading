@@ -1,0 +1,107 @@
+.container {
+    margin: 0 auto;
+    max-width: 90%; 
+    text-align: center;
+}
+.days-header{
+    justify-content: space-around;
+    gap: 4px;
+    width: 100%;
+    display: flex;
+}
+.list-events{
+    visibility: hidden;
+}
+.show-listed-events{
+    visibility: visible;
+}
+.edit-menu{
+    visibility: hidden;
+}
+.show-edit-menu{
+    visibility: visible;
+}
+.days-header > div{
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    flex: 1;
+    border: 1px solid #d4d1d1;
+}
+.login, .register{
+    margin-bottom: 18px;
+}
+.login input, .register input{
+    margin-bottom: 8px;
+}
+.week-to-add{
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.week-to-add > div{
+    flex-grow: 1;
+    box-sizing: border-box;
+    flex-basis: 0;
+    border: 1px solid #c7c3c3;
+    padding: 18px;
+    text-align: center;
+}
+.event-storage{
+    visibility: visible;
+}
+#group-event-container{
+    display: none;
+}
+#calendar-container{
+    max-width: 1210px;
+    margin: 0 auto;
+}
+.new-event{
+    visibility: hidden;
+    width: 395 px;
+    border-radius: 5px;
+    text-align: center;
+}
+.open-new-event{
+    visibility: visible;
+}
+.event-id-hidden{
+    visibility: hidden;
+}
+
+#group-event{
+    width: 295px; 
+    border: 1px solid #f3eeee;
+    padding: 10px;
+}
+.event-box{
+    background-color: #f2eaea;
+    margin-bottom: 3px;
+    border: 1px solid #ece6e6; 
+    padding: 2px; 
+}
+.tag{
+    color: #ece6e6;
+    background-color: #107cf1;
+    padding: 2px 5px;
+    border-radius: 3px;
+    display: block;
+    font-size: 11px;
+    margin-top: 5px;
+}
+#calendar{
+    flex-wrap: wrap;
+    gap: 4px;
+    width: 98%; 
+    display: flex;
+    max-width: 1210px; 
+}
+
+#calendar-header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 8px;
+}
