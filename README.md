@@ -6,7 +6,7 @@ I have used the TWS IBKR API and a TCP Socket to play around with a couple diffe
 
 
 
-- Dual class trading arb(BRKa and BRKb trades both ways, BNRE-must have locate)
+- Dual class trading arb(BRKa and BRKb trade both ways, BNRE-must have locate)
 
 - Options arbs(more of a well hedged position than an arb)
   
